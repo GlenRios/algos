@@ -1,9 +1,3 @@
----
-noteId: "c5692950c5b211f1b9b18d2c6f3471ce"
-tags: []
-
----
-
 # Problema 4 ★★
 
 **Enunciado.** El contador binario en una máquina de Turing. Demuestra con un potencial que $m$ incrementos desde 0 cuestan $O(m)$ pasos en total, aunque uno solo pueda costar $\Theta(\log m)$.
@@ -23,7 +17,7 @@ tags: []
 **Cambio en el número de unos.** Al incrementar, los $k$ bits 1 menos significativos se convierten en 0 (se pierden $k$ unos) y el siguiente bit 0 se convierte en 1 (se gana 1 uno). Por tanto,
 
 $$
-\Delta(\#\text{unos}) = 1 - k.
+\Delta(\No.\text{unos}) = 1 - k.
 $$
 
 El potencial cambia en
